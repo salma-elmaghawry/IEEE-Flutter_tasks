@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/Features/onboarding/onboarding_screen.dart';
+import 'package:flutter_application_1/Features/week6/home.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MealsApp extends StatelessWidget {
@@ -14,7 +15,7 @@ class MealsApp extends StatelessWidget {
       
         textTheme: GoogleFonts.ralewayTextTheme(Theme.of(context).textTheme),
       ),
-      home: OnboardingScreen(),
+      home: HomePage(),
     );
   }
 }
